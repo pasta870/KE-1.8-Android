@@ -35,7 +35,7 @@ class LoadingScreen extends MusicBeatState
 	{
 		Main.dumpCache();
 		progress = 0;
-		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('loading/loading_screen', 'shared'));
+		bg = new FlxSprite(0, 0).loadGraphic(Paths.image('images/fuck', 'preload'));
 		bg.antialiasing = FlxG.save.data.antialiasing;
 		bg.scrollFactor.set();
 		bg.updateHitbox();
